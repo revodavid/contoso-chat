@@ -37,24 +37,44 @@ Your instructor should have shared a _Skillable Lab Link_ with you at this time.
     **🌟 | CONGRATULATIONS!** - Your Skillable VM is live!
 
 
-## 4. Setup Development Env
+## 2. Set up your development environment
 
 ??? note "Step 2: Open GitHub in tab 1️⃣, Launch Codespaces in tab 2️⃣"
 
-    1. Open a new browser tab = Tab 1️⃣
-    1. Navigate to the workshop sample ([Contoso Chat](https://aka.ms/aitour/contoso-chat)) 
-    1. Log into GitHub - use a personal login account
-    1. Fork this sample to your profile - uncheck `main` to get branches
-    1. Switch to `WRK-550` branch in your fork
-    1. Click green `Code` button, select `Codespaces` tab
-    1. Click `Create new codespaces on WRK-550`
-    1. This should launch a new browser tab = Tab 2️⃣
-    1. Verify the new tab shows a VS Code editor ✅
-    1. Codespaces is loading ... this take a while
+GitHub Codespaces will be our development environment for this workshop. You will need to log into your own GitHub account and copy (fork) the workshop materials to your account. Let's do that now.
+
+1. **Open a new browser window** on your laptop. 
+
+1. **Click the link** below to your clipboard: 
+    * `https://github.com/Azure-Samples/contoso-chat`
+
+1. **Paste the link in your browser** to open the GitHub repository.
+
+1. **Sign in to GitHub** if you aren't logged in already, using your own GitHub account credentials.
+
+1. Click **Fork** in the top-right corner of the page
+
+1. In the "Create a new fork" page, scroll down and **uncheck** the option "Copy the main branch only".
+
+   * **Important**: If you forget to uncheck that option, you will need to delete your fork and try again. 
+
+1. Click the **Create Fork** button.
+
+   * You should now be at the page `https://github.com/YOURUSERNAME/contoso-chat` within your own GitHub account, in a single browser tab (Tab 1️⃣).
+   
+   * You now have a copy (known as a fork) of this workshop repository in your own GitHub account! Feel free to play with it, you won't break anything.
+
+1. Use the branch selection drop-down on the left side that now reads **main** and select the branch **aitour-WRK550**.
+
+1. Click the green **<> Code** button in the top-right part of the page, click the **Codespaces** tab, and then click **Create codespace on aitour-WRK550**. This will open a new Codespaces window in Tab 2️⃣.
+
+1. This step takes a few minutes. The instructor will give you an overview of the session, and then you can begin work on your own in the Codespaces environment in your browser when it's ready.
 
     **🌟 | CONGRATULATIONS!** - Your Codespaces is running
 
-??? note "Step 3: View Azure Portal in tab 3️⃣"
+## 3. Take a look at your resources in the Azure Portal
+
+??? note "Step 3: Load tge Azure Portal in tab 3️⃣"
 
     1. Open a new browser tab = Tab 3️⃣
     1. Navigate to the [Azure Portal](https://portal.azure.com)

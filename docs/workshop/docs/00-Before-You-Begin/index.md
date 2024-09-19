@@ -2,24 +2,30 @@
 
 !!! warning "PRE-REQUISITES FOR THIS WORKSHOP"
 
-    To participate in this workshop you will need the following:
+To participate in this workshop you will need the following:
 
-    1. **Your own laptop.** Should have a modern browser, preferably Microsoft Edge.
-    1. **A GitHub account.** A personal account with GitHub Codespaces access.
-    1. **An Azure subscription.** With access to Azure OpenAI Model deployments.
+1. Your own laptop.
+   * It need only be capable of running a browser and GitHub Codespaces, so almost any laptop will do.
+   * A recent version of Edge, Chrome or Safari is recommended.
 
-!!! info "GOOD-TO-HAVE SKILLS FOR DEVELOPMENT"
+1. A GitHub Account.
+   * If you don't have one, you can [sign up for a free account](https://github.com/signup) now.
+   * After this workshop is complete, you will have a fork of the "contoso-chat" repository in your GitHub account, which includes all the materials you will need to reproduce this workshop at home.
 
-    1. **Familiarity with VS Code.** Our default development environment.
-    1. **Familiarity with Python**. Our default coding language.
-    1. **Familiarity with Azure CLIs.** Our default deployment tooling.
+1. (recommended) Familiarity with Visual Studio Code. 
+   * We will run all code in GitHub Codespaces, a virtualized Linux machine, instead of your local laptop. We won't be running anything on your laptop directly.
+   * VS Code Online will be our development environment in GitHub Codespaces.
+   * If you are familiar with running Codespaces within VS Code Desktop on your laptop, feel free to do so. 
 
+1. (preferred) Familiarity with the `bash` shell. 
+    * We'll be using `bash` to run commands in the VS Code terminal, including Azure CLI commands.
+
+1. (preferred) Familiarity with Python and Jupyter Notebooks
+    * We'll be creating Python scripts and running them from the command line and from Notebooks.
 
 ## What You Learn
 
-In this hands-on workshop, you will learn to:
-
-* Use the Azure AI platform for code-first development of custom copilot solutions
+In this hands-on workshop, you will learn to use the Azure AI platform for code-first development of custom copilot solutions:
 * **Infrastructure**: Simplified provisioning and deployment with Azure Developer CLI
 * **Ideation**: Rapid prototyping with Prompty asset and Azure AI model deployments
 * **Evaluation**: Manual and AI-assisted testing with custom evaluators (for quality, safety)
